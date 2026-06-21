@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust — Explore Beyond</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Scroll Progress Bar ── -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">Wanderlust</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── Mobile Nav Drawer ── -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       SECTION 1 — Hero Parallax (Mountains)
+       ════════════════════════════════════════ -->
+  <section class="parallax parallax-hero" id="home">
+    <div class="parallax-overlay">
+      <div class="hero-content">
+        <p class="eyebrow">The World Awaits</p>
+        <h1 class="hero-title">
+          Explore<br /><em>Beyond</em>
+        </h1>
+        <p class="hero-sub">
+          Journey into the extraordinary. Every landscape tells a story worth living.
+        </p>
+        <a href="#about" class="cta-btn">Begin the Journey</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTENT SECTION 1 — About
+       ════════════════════════════════════════ -->
+  <section class="content-section light-section" id="about">
+    <div class="container">
+      <div class="section-label">About Us</div>
+      <div class="content-grid">
+
+        <div class="content-text fade-in">
+          <h2>Where Every <em>Path</em> Leads to Discovery</h2>
+          <p>
+            We believe travel is the greatest teacher. Each destination unfolds a chapter of
+            the world's infinite story — from mist-draped mountain peaks to the quiet hum
+            of ancient forests.
+          </p>
+          <p>
+            Our curated experiences are designed to take you beyond the surface,
+            into the soul of a place. No shortcuts, no tourist traps.
+          </p>
+          <a href="#destinations" class="text-link">Explore destinations →</a>
+        </div>
+
+        <div class="stats-grid fade-in">
+          <div class="stat">
+            <span class="stat-number" data-target="148">0</span>
+            <span class="stat-label">Destinations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="12" data-suffix="K+">0</span>
+            <span class="stat-label">Travelers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="22">0</span>
+            <span class="stat-label">Years of Craft</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-target="98" data-suffix="%">0</span>
+            <span class="stat-label">Return Rate</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SECTION 2 — Parallax (Forest)
+       ════════════════════════════════════════ -->
+  <section class="parallax parallax-forest" id="destinations">
+    <div class="parallax-overlay overlay-green">
+      <div class="parallax-caption fade-in">
+        <p class="eyebrow">Ancient Forests</p>
+        <h2>Where Silence <em>Speaks</em></h2>
+        <p>Step beneath the canopy and let the old growth carry your weight.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTENT SECTION 2 — Destinations
+       ════════════════════════════════════════ -->
+  <section class="content-section dark-section">
+    <div class="container">
+      <div class="section-label light-label">Destinations</div>
+      <h2 class="section-title light-text fade-in">Handpicked by <em>Wanderers</em></h2>
+      <div class="destination-cards">
+
+        <div class="dest-card fade-in">
+          <div class="dest-img dest-img-1"></div>
+          <div class="dest-info">
+            <div class="dest-meta">
+              <span class="dest-tag">Trekking</span>
+              <span class="dest-region">South America</span>
+            </div>
+            <h3>Patagonia</h3>
+            <p>Jagged peaks, sweeping glaciers, and trails that test the limits of endurance.</p>
+          </div>
+        </div>
+
+        <div class="dest-card fade-in">
+          <div class="dest-img dest-img-2"></div>
+          <div class="dest-info">
+            <div class="dest-meta">
+              <span class="dest-tag">Scenic</span>
+              <span class="dest-region">Scandinavia</span>
+            </div>
+            <h3>Norwegian Fjords</h3>
+            <p>Deep-carved valleys, still water mirrors, and the midnight sun above all.</p>
+          </div>
+        </div>
+
+        <div class="dest-card fade-in">
+          <div class="dest-img dest-img-3"></div>
+          <div class="dest-info">
+            <div class="dest-meta">
+              <span class="dest-tag">Culture</span>
+              <span class="dest-region">Japan</span>
+            </div>
+            <h3>Kyoto</h3>
+            <p>Bamboo groves, tea ceremony, and temples holding centuries of stillness.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SECTION 3 — Parallax (Ocean)
+       ════════════════════════════════════════ -->
+  <section class="parallax parallax-ocean" id="experiences">
+    <div class="parallax-overlay overlay-blue">
+      <div class="parallax-caption fade-in">
+        <p class="eyebrow">Coastal Wonders</p>
+        <h2>Horizons Without <em>End</em></h2>
+        <p>The ocean whispers of worlds beyond the edge of sight.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTENT SECTION 3 — How We Travel
+       ════════════════════════════════════════ -->
+  <section class="content-section cream-section">
+    <div class="container">
+      <div class="section-label">Our Philosophy</div>
+      <h2 class="section-title fade-in">How We <em>Travel</em></h2>
+      <div class="experience-list">
+
+        <div class="exp-item fade-in">
+          <div class="exp-icon">◈</div>
+          <div class="exp-text">
+            <h3>Small Groups</h3>
+            <p>Maximum 12 travelers per journey. Intimacy changes everything about how you see the world.</p>
+          </div>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-icon">◉</div>
+          <div class="exp-text">
+            <h3>Local Immersion</h3>
+            <p>Stay with communities. Eat at family tables. Learn the real rhythm of a place.</p>
+          </div>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-icon">◐</div>
+          <div class="exp-text">
+            <h3>Off the Beaten Path</h3>
+            <p>No tourist traps. Every route is researched and road-tested personally by our guides.</p>
+          </div>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-icon">◇</div>
+          <div class="exp-text">
+            <h3>Mindful Footprint</h3>
+            <p>Carbon-conscious. Community-first. The planet is part of every plan we make.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SECTION 4 — Parallax (Desert Dusk)
+       ════════════════════════════════════════ -->
+  <section class="parallax parallax-desert" id="contact">
+    <div class="parallax-overlay overlay-amber">
+      <div class="parallax-caption fade-in">
+        <p class="eyebrow">Your Next Chapter</p>
+        <h2>Start Here, <em>Go Anywhere</em></h2>
+        <p>Every great journey begins with a single step of courage.</p>
+        <a href="#footer" class="cta-btn outline">Plan Your Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h3>Wanderlust</h3>
+          <p>Crafting journeys since 2002. The world is our canvas, every trip a brushstroke.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram">Ig</a>
+            <a href="#" aria-label="Twitter">Tw</a>
+            <a href="#" aria-label="LinkedIn">Li</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+          <p>hello@wanderlust.co</p>
+          <p>+1 (800) 926-3375</p>
+          <p class="footer-addr">14 Alpine Way, Portland<br />Oregon, 97201</p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Wanderlust. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
