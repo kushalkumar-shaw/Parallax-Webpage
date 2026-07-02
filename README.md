@@ -2,6 +2,10 @@
 
 A responsive travel landing page built with HTML, CSS, and JavaScript. The design uses full-screen parallax sections, layered overlays, animated counters, fade-in reveals, and a mobile navigation drawer to create a cinematic scrolling experience.
 
+**[🔗 Live Demo](https://kushalkumar-shaw.github.io/Parallax-Webpage/)**
+
+![Project Screenshot](sc/fullpage_snapshot.png)
+
 ## Features
 
 - Full-screen parallax hero, destination, and contact sections
